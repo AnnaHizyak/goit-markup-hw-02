@@ -1,0 +1,118 @@
+:root {
+    /* colors */
+--primery-text-color: #757575; 
+--tittle-text-color: #212121;
+--secondary-text-color: #FFFFFF;
+--accent-color: #2196F3;
+--primery-bg-color: #F5F5F5;
+--footer-text-color: rgba(255, 255, 255, 0.6);
+--secondary-bg-color: #2F303A;
+--thirt-bg-color: #F5F4FA; 
+
+   /* fonts */
+}
+
+/*body*/
+.page-header {
+    background-color: #FFFFFF;
+}
+body {background-color: #F5F5F5;
+}
+
+/* site nav */
+.site-nav link {
+color: var(--tittle-text-color);    
+}
+.link.web-logo {
+color: var(--accent-color);    
+}
+.link.studio-logo {
+color: var(--tittle-text-color);    
+}
+.link {
+color: var(--tittle-text-color);    
+}
+.link.current {
+color: var(--accent-color);    
+}
+.contacts {
+color: var(--primery-text-color);    
+}
+.contacts.current {
+color: var(--accent-color);    
+}
+
+/* .site-nav .link:hover,
+.site-nav .link-focus {color: #2196F3;} */
+
+/* hero */
+.hero-section {
+    background-color: #2F303A;
+}
+.hero-tittle {
+color: var(--secondary-text-color);    
+}
+
+.list {
+    list-style: none;}
+/* button */
+.button {
+    
+} 
+.button-primery {
+    background-color: var(--accent-color);
+    color: var(--primery-bg-color);
+}    
+/* our benefits */
+.section-benefits {
+    background-color: var(--primery-bg-color);
+}
+.benefits-tittle {
+    color: var(--tittle-text-color);
+}
+.benefits-descr {
+    color: var(--primery-text-color);
+}
+/* what do we do */
+.section {
+    background-color: var(--thirt-bg-color);
+}
+.section-tittle {
+color: var(--tittle-text-color);    
+}
+
+/* our team */
+.name-tittle {
+    color: var(--tittle-text-color);
+}
+.position-tittle {
+    color: var(--primery-text-color);
+}
+
+/* footer */
+.footer {
+    background-color: var(--secondary-bg-color);
+}
+.link.studio-logo-footer {
+    color: var(--secondary-text-color);
+}
+.footer-adress {
+    color: var(--secondary-text-color);
+}
+.footer-contact {
+    color: var(--footer-text-color);
+}
+/* ul {list-style: none;}
+.list { */
+
+
+/* .list{
+    list-style: none;
+} */
+/* основний колір тексту #212121*/
+ /* другорядний колір тексту #757575*/
+ /* білий #FFFFFF*/
+ /* білий rgba(255, 255, 255, 0.6) */
+ /* #2196F3*/
+ /* фон основний F5F5F5 */
+ /* другорядний фон F5F4FA; */
