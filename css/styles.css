@@ -64,12 +64,22 @@ letter-spacing: 0.02em;
 color: var(--accent-color);    
 }
 .contacts {
-color: var(--primery-text-color);    
+color: var(--primery-text-color);
+text-decoration: none;
+font-family: inherit;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
 .contacts.current {
 color: var(--accent-color);    
 text-decoration: none;
-font-family: inherit;}
+font-family: inherit;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;}
 .contacts:hover,
 .contacts:focus {
     color: var(--accent-color);
@@ -91,9 +101,9 @@ color: var(--accent-color);}
 color: var(--secondary-text-color);
 font-weight: 900;
 font-size: 44px;
-line-height: 1,4;
+line-height: 1.4;
 text-align: center;
-letter-spacing: 0,6em;
+letter-spacing: 0.06em;
 text-transform: uppercase;    
 }
 
@@ -126,15 +136,14 @@ background-color: var(--accent-color
 .benefits-tittle {
     color: var(--tittle-text-color);
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.7px;
+    font-size: 14;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .benefits-descr {
     color: var(--primery-text-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7px;
+    font-size: 14;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 
 }
@@ -146,7 +155,7 @@ background-color: var(--accent-color
 color: var(--tittle-text-color);
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 42;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -156,15 +165,14 @@ letter-spacing: 0.03em;
     color: var(--tittle-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .position-tittle {
     color: var(--primery-text-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.2px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -179,14 +187,24 @@ letter-spacing: 0.03em;
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 .footer-adress {
     color: var(--secondary-text-color);
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 .footer-contact {
     color: var(--footer-text-color);
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 .footer-adress:hover,
 .footer-adress:focus {
@@ -203,9 +221,10 @@ background-color: var(--primery-bg-color);
 } 
 .filter-btn {
 background-color:var(--thirt-bg-color);
+font-family: var(--main-font);
 font-weight: 500;
 font-size: 16px;
-line-height: 1.6px;
+line-height: 1.6;
 text-align: center;    
 letter-spacing: 0.03em;
 cursor: pointer;
@@ -219,15 +238,13 @@ color: var(--tittle-text-color);
 
 .project-tittle {
 color: var(--tittle-text-color);   
-font-weight: 700;
 font-size: 18px;
-line-height: 2.0px;
+line-height: 2.0;
 letter-spacing: 0.06em; 
 }
 .project-category {
 color: var(--primery-text-color); 
-font-weight: 400;
 font-size: 18px;
-line-height: 1.8px;
+line-height: 1.8;
 letter-spacing: 0.03em;
 }
